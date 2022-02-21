@@ -1,0 +1,1 @@
+{"uuid":"60816800-c2f8-4b98-a72e-113f2be48922","name":"Sample Test Cases","children":["c05bab8d-8704-4712-b7a5-6991b1ecb1c9"],"befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1623053876471,"stop":1623053876895}],"links":[],"start":1623053695812,"stop":1623053876896}
