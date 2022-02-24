@@ -31,10 +31,12 @@ public class TestBase {
         cap.setCapability("resetKeyboard",true);
 
 
+
         //cap.setCapability("automationName", PropertyReader.getPropValues("config.properties").get("automationName"));
 
         //URL url = new URL("https://dev-us-mia-0.headspin.io:7018/v0/86b1f5e8842f49bbbf920da797f2ad15/wd/hub");
-        URL url = new URL("http://127.0.0.1:4723/wd/hub");
+        URL url = new URL("https://dev-us-pao-5.headspin.io:7015/v0/3b1a9ac1b73540c0934c44c0da7868e3/wd/hub");
+        //URL url = new URL("http://127.0.0.1:4723/wd/hub");
         driver = new AppiumDriver<MobileElement>(url, cap);
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 //        System.out.println(driver.getSessionDetails());
