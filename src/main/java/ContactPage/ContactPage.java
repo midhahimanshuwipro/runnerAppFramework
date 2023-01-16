@@ -23,6 +23,7 @@ public class ContactPage extends Base {
     //driver.hideKeyboard();
 
 
+
     public static void verifyIsContactPageDisplayed()
     {
         waitUntilElementIsVisible(cp.addToFavBtn);
@@ -39,11 +40,14 @@ public class ContactPage extends Base {
         else
             System.out.println("unable to find add to Favourite Btn");
         return false;
+
     }
 
 
     public static boolean clickcreateNewContactBtn() {
         try {
+
+
             if (cp.createNewContactBtn.isDisplayed() | cp.createNewContactBtn.isEnabled()) {
                 cp.createNewContactBtn.click();
                 sleep(2000);

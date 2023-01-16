@@ -5,7 +5,7 @@ public class SMSAppTest extends TestBase{
 
 
 
-    //@Test
+    @Test
     public void verifyWelcomeScreenPopUP() throws Exception
     {
         Pages.SMSApp().clickOKBtn();
@@ -20,6 +20,17 @@ public class SMSAppTest extends TestBase{
         Pages.SMSApp().clickElipsesBtn();
         Assert.assertEquals(Pages.SMSApp().messageOnWebBtn(),"Messages for web");
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
     //@Test

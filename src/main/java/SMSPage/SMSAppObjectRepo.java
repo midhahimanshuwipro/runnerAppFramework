@@ -19,6 +19,9 @@ public class SMSAppObjectRepo extends Object_base {
     static protected MobileElement okBtnWelcomeScreen;
 
 
+
+
+
    @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc=\"More options\"]")
    static protected MobileElement moreOptionElipsesBtnClick;
 
